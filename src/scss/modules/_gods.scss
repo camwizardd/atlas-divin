@@ -1,0 +1,63 @@
+.gods-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.gods-article-wrapper {
+  display: flex;
+  gap: 12px;
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  border: 2px solid;
+  background: var(--Background, #fff);
+}
+
+.blue {
+  border: 2px solid var(--blue, #279ef8);
+}
+.red {
+  border: var(--red, #f82727);
+}
+.yellow {
+  border: var(--yellow, #f8af27);
+}
+.green {
+  border: var(--green, #12965d);
+}
+
+.gods-image-wrapper {
+  .gods-name {
+    position: absolute;
+    z-index: 1;
+    top: 176px;
+    padding: 8px 12px;
+    background: var(--white, #fff);
+  }
+  .blue {
+    color: var(--blue, #279ef8);
+  }
+  .red {
+    color: var(--red, #f82727);
+  }
+  .yellow {
+    color: var(--yellow, #f8af27);
+  }
+  .green {
+    color: var(--green, #12965d);
+  }
+  .gods-img-icon {
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+    right: 12px;
+  }
+  img {
+    filter: grayscale(100%);
+    height: 216px;
+    margin-left: -50px;
+  }
+}

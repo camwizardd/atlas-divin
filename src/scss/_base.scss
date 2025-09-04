@@ -12,3 +12,48 @@ img,
 video {
   display: block;
 }
+
+html {
+  --gray: #bcbfc3;
+  --dark-gray: #515050;
+  --black: #000000;
+  --blue: #279ef8;
+  --red: #f82727;
+  --yellow: #f8af27;
+  --green: #12965d;
+  --white: #ffffff;
+  --light-gray: #e8e8e8;
+}
+
+body {
+  color: var(--dark-gray, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  padding: 20 12px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-family: "Caesar Dressing";
+  font-size: 32px;
+}
+
+h2 {
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+}
+
+h3 {
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Bubbler One";
+  font-size: 16px;
+}

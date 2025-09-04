@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  padding: 20px 12px;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--gray, #bcbfc3);
+}
+
+.header-title {
+  color: var(--black, #000);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+}
+
+.header-menu {
+  display: none;
+}

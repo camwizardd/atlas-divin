@@ -1,0 +1,50 @@
+.filters-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  .blue {
+    background: var(--blue, #1877f2);
+  }
+  .red {
+    background: var(--red, #ff1744);
+  }
+  .yellow {
+    background: var(--yellow, #ffca28);
+  }
+  .green {
+    background: var(--green, #22c55e);
+  }
+  .filters-button {
+    display: flex;
+    padding: 12px 8px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: none;
+    color: var(--white, #fff);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      font-family: "Caesar Dressing";
+    }
+    h3 {
+      font-weight: 400;
+    }
+  }
+}
+
+.filters_title {
+  font-family: "Bubbler One";
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
